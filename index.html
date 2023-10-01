@@ -2,7 +2,7 @@
 <html lang="en-ca">
   <head>
     <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
+    <title>EVERYTHING R&B!</title>
 
     <!-- Set the charset we're using to UTF-8 -->
     <meta charset="UTF-8" />
@@ -13,6 +13,7 @@
     <!-- Specifies the document mode for Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+    
     <!-- CSS -->
     <!-- The following CSS has been added so that the page
     doesn't look super awful -->
@@ -25,6 +26,7 @@
       */
       body {
         font-family: Arial, Helvetica, sans-serif;
+        background-color: azure;
         font-size: 1.2rem;
         line-height: 1.6;
       }
@@ -40,6 +42,114 @@
     </style>
   </head>
   <body>
+
+    <header>
+    <h2>Site Header</h2>
+    <p>EVERYTHING R&B!</p>
+    <img src="EVERYTHING.png" alt="my logo" />
+    <nav>
+      <h2>Site Navigation</h2>
+      <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+      <h1>R&B</h1>
+      <img src="concert.jpg" alt="concert"/>
+
+     <section>
+      <h2>Table of content</h2>
+      <ul>
+        <li><a href="#home">R&B MUSIC</a></li>
+        <li><a href="#artists">ARTISTS</a></li>
+        <li><a href="#concerts">CONCERTS</a></li>
+        <li><a href="#streaming">STREAMING SERVICES</a></li>
+      </ul>
+      </section>
+      
+      <section>
+     <h2 id="home">R&B MUSIC</h2>
+     <p> R&B also known as Rythm And Blues the right type of music that touches the soul. 
+      It is a perform of music that originated in African American communities in the 1940s. The term was originally used by record companies to describe recordings marketed predominantly to urban African Americans, 
+      R&B has influenced many genres of music such as pop, hip hop, and rock. It has also become an escape for people, no matter what they are going through. Just being able to listen to the music and relate to the lyrics feels like a great escape.
+     </p>
+     </section>
+
+     <section>
+     <h2 id="artists">ARTISTS</h2>
+     <p>Here are some of the most popular R&B artists of all time.</p>
+     <ul>
+     <li>Brent Fayaiz</li>
+     <li>Frank Ocean</li>
+     <li>Sza</li>
+     <li>Summer Walker</li>
+     <li>Daniel Ceasar</li>
+     <li>Drake</li>
+     </ul>
+     </section>
+
+     <section>
+     <h3 id="concerts">CONCERTS</h3>
+
+     <p>Concerts are a great way to experience music. Here are some concerts you could attend this year.</p>
+      <ul>
+     <li>Drake: It's All A Blur Tour </li>
+           <li>Location: Toronto, ON</li>
+         <li>Date: 2023-10-06</li>
+         <li>
+         <a href="https://www.ticketmaster.ca/drake-its-all-a-blur-tour-toronto-ontario-10-06-2023/event/10005E6A06014548">Buy Tickets</a>
+         </li>
+        </ul>
+
+     <ul>
+      <li>Sza: SOS Tour</li>
+         <li>Location: Toronto, ON</li>
+         <li>Date: 2023-10-04</li>
+         <li>
+          <a href="https://www.ticketmaster.ca/sza-sos-tour-toronto-ontario-10-04-2023/event/10005E7DE15C325B">Buy Tickets</a>
+         </li>
+        </ul>
+     
+     <ul>
+     <li>Daniel Caesar Presents Superpowers World Tour - Leg 2: U.S. & Canada</li>
+     <li>Location: Toronto, ON</li>
+     <li>Date: 2023-10-10</li>
+     <li>
+     <a href="https://www.ticketmaster.ca/daniel-caesar-presents-superpowers-world-tour-ottawa-ontario-10-10-2023/event/31005EBFCD8C237B">Buy Tickets</a>
+     </li>
+      </ul>
+
+     <ul>
+     <li>Raye: My 21st Century Blues World Tour</li>
+      <li>Location: Toronto, ON</li>
+      <li>Date: 2023-10-07</li>
+      <li>
+      <a href="https://www.ticketmaster.ca/raye-my-21st-century-blues-world-toronto-ontario-10-07-2023/event/10005EC29B9B1BAC?irgwc=1&clickid=VG9yxC1-AxyPWBF0lV19PUYIUkFR84zPPy0cT80&camefrom=CFC_BUYAT_253520&impradid=253520&REFERRAL_ID=tmfeedbuyat253520&wt.mc_id=aff_BUYAT_253520&utm_source=253520-YouTube%20-%20TM&impradname=YouTube%20-%20TM&utm_medium=affiliate&ircid=4272">Buy Tickets</a>
+     </li>
+     </ul>
+    </section>
+
+     <section>
+     <h3 id="streaming">STREAMING SERVICES</h3>
+      <p>Here are some streaming services you can use to listen to R&B music.
+       <ul>
+        <li>Spotify</li>
+        <li>Apple Music</li>
+        <li>Soundcloud</li>
+        <li>Youtube Music</li>
+        <li>Amazon Music</li>
+        <li>Tidal</li>
+        <li>Deezer</li>
+        <li>Google Play Music</li>
+        <li>pandora</li>
+        </ul>
+       </section>
+      
+    
     <!--
 
       LIST ANY CITATIONS HERE
@@ -54,7 +164,87 @@
       YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
 
     -->
+   <section>
+    <h3 id="form">Everything R&b FeedBack Form </h3>
+    <p>Thank you for visiting our website, what can we do or improve to make this site serve you better? Please provide your feedback below.</p>
 
-    <h1>Assignment 01 - To Be Completed</h1>
+   <form>
+   <fieldset>
+    <legend>Personal Information:</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" autocomplete="name" required />
+  
+   <label for="email">Email:</label>
+   <input type="email" id="email" name="email" autocomplete="email" />
+  
+   <label for="phone">Phone:</label>
+   <input type="tel" id="phone" name="phone" autocomplete="tel" />
+   </fieldset>
+
+   <fieldset>
+   <legend>Feedback:</legend>
+
+    <label for="topic">Subject/Topic:</label>
+    <input type="text" id="topic" name="topic" required />
+    </fieldset>
+
+    <label>Feedback Type:</label>
+    <input
+    type="radio"
+    id="suggestion"
+    name="feedback_type"
+    value="suggestion"
+    required
+    />
+   <label for="suggestion">Suggestion</label>
+   <input
+    type="radio"
+    id="concern"
+    name="feedback_type"
+    value="concern"
+    />
+    <label for="concern">Concern</label>
+    <input
+    type="radio"
+    id="appreciation"
+    name="feedback_type"
+    value="appreciation"
+    />
+   
+
+   <label for="feedback">Feedback Details:</label><br />
+   <textarea
+    id="feedback"
+    name="feedback"
+    rows="4"
+    cols="50"
+    required
+    ></textarea>
+
+   <fieldset>
+   <legend>Submit Feedback:</legend>
+
+   <input type="checkbox" id="consent" name="consent" required />
+   <label for="consent">I consent to the use of my feedback.</label>
+   <input type="submit" value="Submit Feedback" />
+   </fieldset>
+   
+   </form>
+   </section>
+   </main>
+
+   <footer>
+    <h2>Site Footer</h2>
+     <img src="EVERYTHING.png" alt="my logo" />
+    <nav>
+      <h2>Site Navigation</h2>
+      <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
+    <p>&copy;2023</p>
+   </footer>
   </body>
 </html>
